@@ -1,11 +1,10 @@
 export const skills = [
-  'UI Design',
   'Development',
-  'Documentaton',
-  'Prototyping',
-  'Mentoring',
-  'Design Patterns',
-  'Illustration',
+  'Documentation',
+  'Investigation',
+  'Accounting',
+  'Quantitative Research',
+  'Administrative',
   'Branding',
   'SEO',
 ]
@@ -13,19 +12,19 @@ export const skills = [
 
 export const eduList = [
   {
-    institute: 'Full Stack Academy',
-    fieldOfStudy: 'Ruby on Rails, Full Stack Program',
-    dates: '2015'
+    institute: 'Muktek Academy',
+    fieldOfStudy: 'Full Stack Web Developer',
+    dates: '2018'
   },
   {
-    institute: 'Digital Illustration',
-    fieldOfStudy: 'Miso School of Art + Design',
-    dates: '2010'
+    institute: 'National School of Anthropology and History',
+    fieldOfStudy: 'Social Anthropologist',
+    dates: '2006 – 2011'
   },
   {
-    institute: 'Bosh University',
-    fieldOfStudy: 'Bachelor of Business Administration (B.B.A.)',
-    dates: '2002 – 2007'
+    institute: 'National Autonomous University of Mexico',
+    fieldOfStudy: 'Bachelor of Accounting',
+    dates: '2001 – 2006'
   }
 ]
 

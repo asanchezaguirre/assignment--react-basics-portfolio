@@ -2,7 +2,7 @@ import React, {Component} from 'react'
 import EduTitle from "./EduTitle";// import EduTitle component
 
 
-import {eduList} from "../data/datasource"
+
 
 class EducationHistory extends Component {
   render() {
@@ -15,7 +15,7 @@ class EducationHistory extends Component {
         <div className="skills-list">
 
           { 
-            eduList.map(function(datos){
+            this.props.edu.map(function(datos){
               return <EduTitle institute = {datos.institute}
                                fieldOfStudy = {datos.fieldOfStudy}
                                dates = {datos.dates}

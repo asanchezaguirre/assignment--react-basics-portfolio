@@ -10,10 +10,12 @@ class App extends Component {
     return (
      <React.Fragment>
       <PortfolioFixed />
-      <PortfolioContent />
+      <PortfolioContent skill = {this.props.skill} edu = {this.props.edu} job ={this.props.job}/>
      </React.Fragment>
     );
   }
 }
 
 export default App;
+
+//skill={skills} edu={eduList} job ={jobsList}

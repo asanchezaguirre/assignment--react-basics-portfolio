@@ -1,7 +1,7 @@
 import React, {Component} from 'react'
 import Skill from "./Skill"; // import Skill component
 
-import {skills} from "../data/datasource";
+
 
 
 class SkillsList extends Component {
@@ -13,7 +13,7 @@ class SkillsList extends Component {
         <div className="skills-list">
 
           { 
-            skills.map(function(skill){
+            this.props.skill.map(function(skill){
               return <Skill data = {skill}/>
             })
             /*

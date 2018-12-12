@@ -15,12 +15,14 @@ class PortfolioContent extends Component {
       			<Header />
       			<Summary />
       			<ContactInfo />
-      			<SkillsList />
-      			<EducationHistory />
-      			<WorkHistory />
+      			<SkillsList skill={this.props.skill}/>
+      			<EducationHistory edu={this.props.edu}/>
+      			<WorkHistory job ={this.props.job}/>
       			
      		</React.Fragment>
 			);
 	}
 }
 export default PortfolioContent;
+
+//skill={this.props.skill} edu={this.prop.edu} job ={this.prop.job}

@@ -1,7 +1,6 @@
 import React, {Component} from 'react'
 import Job from "./Job";// import Job components
 
-import {jobsList} from "../data/datasource"
 
 class WorkHistory extends Component {
   render() {
@@ -13,7 +12,7 @@ class WorkHistory extends Component {
         <h4>Work Experience</h4>
         <div className="skills-list">
           { 
-            jobsList.map(function(job){
+            this.props.job.map(function(job){
               return<Job title ={job.title}
                          company ={job.company}
                          description ={job.description}
