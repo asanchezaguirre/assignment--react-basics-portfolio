@@ -1,12 +1,17 @@
 export const skills = [
   'Development',
-  'Documentation',
-  'Investigation',
-  'Accounting',
-  'Quantitative Research',
-  'Administrative',
-  'Branding',
-  'SEO',
+  'Node JS',
+  'MongoDB',
+  'JavaScript',
+  'React',
+  'HTML',
+  'CSS',
+  'Sass',
+  'Linux',
+  'SCRUM',
+  'Self-learning',
+  'Teamwork',
+  'Creativity',
 ]
 
 
@@ -30,39 +35,35 @@ export const eduList = [
 
 export const jobsList = [
   {
-    title: 'Full Stack Developer',
-    company: 'Gummy Mobile',
-    description: `It's critical that we give 110% when proactively incentivizing stand-ups. Change the way you do business - adopt seamless industry leaders. Going forward, our knowledge transfer capability will deliver value to executive searches.`,
+    title: 'EthNote/Full-Stack project',
+    company: 'Muktek Academy',
+    description: `
+Web App for qualitative research. A digital field journal for
+social scientists.`,
     years: {
-      start: '2016',
+      start: 'nov 2018',
       end: 'NOW'
     }
   },
   {
-    title: 'Front End UI Developer',
-    company: 'Emil Labs',
-    description: `So we can hit the ground running, we will be virtually engineering every bandwidth in our space. Going forward, our actionable agile workflow will deliver value to core assets. We use our mobile best practices to strategically manage our visibility expectations. We use our customer-focused stacks to intelligently manage our stakeholder expectations.`,
+    title: 'Researcher and Administrator',
+    company: 'Clóset de Sor Juana',
+    description: `Financial administration and research on human rights and women defenders. Article publication`,
+    years: {
+      start: '2014',
+      end: '2018'
+    }
+  },
+  {
+    title: 'Research Assistant',
+    company: 'Coordinación Nacional de Antropología-INAH',
+    description: `
+Research assistant in the projects: Women of African origin in the
+Novohispana Capital and Afromexican Studies.`,
     years: {
       start: '2012',
-      end: '2016'
+      end: '2014'
     }
   },
-  {
-    title: 'QA Tester',
-    company: 'CasaBlack',
-    description: `We use our corporate capabilities to effectively manage our innovation expectations. Company-wide dot-bombs are becoming next-generation market focus experts. Conservatively reusing reliably mission critical drivers is crucial to our competitive vertical.`,
-    years: {
-      start: '2011',
-      end: '2012'
-    }
-  },
-  {
-    title: 'Illustrator + Wordpress Developer',
-    company: 'Freelance',
-    description: `Ethically touching base about aligning diversities will make us leaders in the long-term platform industry. Key players will take ownership of their core competencies by iteratively growing senior enterprises.`,
-    years: {
-      start: '2009',
-      end: '2011'
-    }
-  }
+  
 ]
